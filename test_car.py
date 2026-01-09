@@ -1,17 +1,17 @@
 from car import display_summary
 
 def test_display_summary():
-    owner_name = "V001"
-    car_model = "Toyota Camry"
+    owner_name = "john"
+    car_model = "E173"
     car_type = "Sedan"
-    total_cost = 95000
+    total_cost = 9505
     service_category = "Premium Service"
     expected_output = (
         "\n--- Service Summary ---\n"
-        "Car Owner Name      : V001\n"
-        "Car Model           : Toyota Camry\n"
+        "Car Owner Name      : john\n"
+        "Car Model           : E173\n"
         "Car Type            : Sedan\n"
-        "Total Service Cost  : ₹95000.00\n"
+        "Total Service Cost  : ₹9505.00\n"
         "Service Category    : Premium Service"
         "Year of Production: 2009"
     )
