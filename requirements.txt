@@ -1,0 +1,1 @@
+pytest --junitxml=reports/result.xml
